@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сollections", "Сollections\Сollections.csproj", "{AE2451FC-A85D-473E-9729-158F9164ECEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сollections", "Сollections\Сollections.csproj", "{AE2451FC-A85D-473E-9729-158F9164ECEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classic Collecs", "Classic Collecs\Classic Collecs.csproj", "{773D5364-49D1-4913-98B0-192D6036AFC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AE2451FC-A85D-473E-9729-158F9164ECEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE2451FC-A85D-473E-9729-158F9164ECEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE2451FC-A85D-473E-9729-158F9164ECEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773D5364-49D1-4913-98B0-192D6036AFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773D5364-49D1-4913-98B0-192D6036AFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773D5364-49D1-4913-98B0-192D6036AFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773D5364-49D1-4913-98B0-192D6036AFC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
