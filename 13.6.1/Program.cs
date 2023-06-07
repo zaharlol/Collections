@@ -2,22 +2,22 @@
 using System.Net;
 
 class Program
-    {
+{
         static void Main(string[] args)
         {
-        StopWatch stopWatch = new StopWatch();
+         StopWatch stopWatch = new StopWatch();
 
-        string path = File.ReadAllText("D:/VS/Новая папка/Text.txt");
+         string path = File.ReadAllText("D:/VS/Новая папка/Text.txt");
 
-        List<string> list = new List<string>();
-        list.Add(path);
-        stopWatch.Estimate(list.Count);
+         List<string> list = new List<string>();
+         list.Add(path);
+            stopWatch.Estimate(list.Count);
 
-        LinkedList<string> strings = new LinkedList<string>();
-        strings.AddFirst(path);
-        stopWatch.Estimate(list.Count);
-    }
-    }
+         LinkedList<string> strings = new LinkedList<string>();
+         strings.AddFirst(path);
+            stopWatch.Estimate(list.Count);
+        }
+}
 class StopWatch
 {
     static void CreateMatrix(int n)
